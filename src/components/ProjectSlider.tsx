@@ -1,6 +1,6 @@
 import bannerBg from "../assets/img/bannerbg.webp";
 import React, { useRef } from "react";
-import Button from "./Button";
+//import Button from "./Button";
 import LiveTicker from "./ParallaxText";
 import { projectsData, toastMessages } from "../assets/lib/data";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -26,8 +26,8 @@ const ProjectSlider: React.FC = () => {
   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
   const notifyServerRequest = () => {
-    if (language === "DE") {
-      toast.info(toastMessages.loadingProject.de);
+    if (language === "TR") {
+      toast.info(toastMessages.loadingProject.tr);
     } else {
       toast.info(toastMessages.loadingProject.en);
     }
@@ -73,11 +73,11 @@ const ProjectSlider: React.FC = () => {
             >
               <p className="text-[--white] mt-16 mb-6">
                 <span className="text-[--orange]">&lt;</span>
-                {language === "DE" ? "Projekte" : "Projects"}
+                {language === "TR" ? "Projelerim" : "Projects"}
                 <span className="text-[--orange]">/&gt;</span>
               </p>
               <h2 className="text-[--white] mb-16">
-                {language === "DE" ? "Meine Projekte" : "My Projects"}
+                {language === "TR" ? "Projelerim" : "My Projects"}
               </h2>
             </motion.div>
             <Swiper
@@ -104,15 +104,15 @@ const ProjectSlider: React.FC = () => {
                     <h2>{project.title}</h2>
 
                     <p className="text-white">
-                      {language === "DE"
+                      {language === "TR"
                         ? project.description
                         : project.description_EN}
                     </p>
                     <div className="technologies">
                       <h3>
-                        {language === "DE" ? "Technologien" : "Technologies"}
+                        {language === "TR" ? "" : ""}
                       </h3>
-                      <div className="grid grid-cols-6 gap-10 p-4">
+                      {/* <div className="grid grid-cols-6 gap-10 p-4">
                         {project.technologies.map(
                           (technology, innerIndex: number) => (
                             <img
@@ -125,9 +125,9 @@ const ProjectSlider: React.FC = () => {
                             />
                           )
                         )}
-                      </div>
+                      </div> */}
                     </div>
-                    <div className="buttons flex gap-10">
+                    {/* <div className="buttons flex gap-10">
                       <Button
                         label="Live Demo"
                         link={project.deploymenturl}
@@ -143,10 +143,10 @@ const ProjectSlider: React.FC = () => {
                         buttoncolor={project.colors.main}
                         iconcolor={project.colors.icon}
                       />
-                    </div>
+                    </div> */}
                   </div>
 
-                  <div className="right-content relative h-[40rem] overflow-hidden rounded-xl w-[40%] transition-all duration-200 shadow-2xl">
+                  <div className="right-content relative h-[20rem] overflow-hidden rounded-xl w-[40%] transition-all duration-200 shadow-2xl">
                     <img
                       src={project.image}
                       alt={`${project.title}-project-mockup`}
@@ -168,7 +168,7 @@ const ProjectSlider: React.FC = () => {
                   alt={project.image}
                   className="h-[35vh] w-full object-cover object-top rounded-3xl"
                 />
-                <div className="buttons flex gap-10 max-lg:flex-col">
+                {/* <div className="buttons flex gap-10 max-lg:flex-col">
                   <Button
                     label="Live Demo"
                     link={project.deploymenturl}
@@ -183,16 +183,16 @@ const ProjectSlider: React.FC = () => {
                     buttoncolor={project.colors.main}
                     iconcolor={project.colors.icon}
                   />
-                </div>
+                </div> */}
                 <p className="text-white  max-lg:text-4xl">
-                  {language === "DE"
+                  {language === "TR"
                     ? project.description
                     : project.description_EN}
                 </p>
 
-                <div className="technologies">
+                {/* <div className="Teknolojiler">
                   <h3 className="text-white">
-                    {language === "DE" ? "Technologien" : "Technologies"}
+                    {language === "TR" ? "Teknolojiler" : "Technologies"}
                   </h3>
                   <div className="grid grid-cols-3 gap-10 p-4">
                     {project.technologies.map(
@@ -208,7 +208,7 @@ const ProjectSlider: React.FC = () => {
                       )
                     )}
                   </div>
-                </div>
+                </div> */}
               </article>
             ))}
           </div>

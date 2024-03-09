@@ -93,6 +93,7 @@ const SkillSection: React.FC<SkillSectionProps> = ({ skillsData, theme }) => {
             src={getSkillIconSrc(theme, skill)}
             alt={`${skill.icon}-icon`}
             className="h-[10rem]"
+            style={{ margin: "auto", display: "block", height: "10rem", width: "auto" }}
           />
           <h3 className="max-lg:text-[2rem] min-[1024px]:hidden">
             {skill.title}

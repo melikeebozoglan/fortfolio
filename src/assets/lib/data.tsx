@@ -1,4 +1,4 @@
-import adobexdicon from "../../assets/icons/adobexdicon.svg";
+//import adobexdicon from "../../assets/icons/adobexdicon.svg";
 import canvaicon from "../../assets/icons/canvaicon.svg";
 import figmaicon from "../../assets/icons/figmaicon.svg";
 import htmlicon from "../../assets/icons/htmlicon.svg";
@@ -6,52 +6,62 @@ import cssicon from "../../assets/icons/cssicon.svg";
 import javascripticon from "../../assets/icons/javascripticon.svg";
 import typescripticon from "../../assets/icons/typescripticon.svg";
 import reacticon from "../../assets/icons/reacticon.svg";
-import nextjsicon from "../../assets/icons/nextjsicon.svg";
-import nodejsicon from "../../assets/icons/nodejsicon.svg";
-import tailwindcssicon from "../../assets/icons/tailwindicon.svg";
-import mongodbicon from "../../assets/icons/mongoicon.svg";
-import vuejsicon from "../../assets/icons/vueicon.svg";
-import expressicon from "../../assets/icons/expressicon.svg";
-import sassscssicon from "../../assets/icons/sassicon.svg";
-import trelloicon from "../../assets/icons/trelloicon.svg";
-import apiicon from "../../assets/icons/apiicon.svg";
-import axiosicon from "../../assets/icons/axiosicon.svg";
-import spotifyicon from "../../assets/icons/spotifyicon.svg";
-import netlifyicon from "../../assets/icons/netlifyicon.svg";
-import rendericon from "../../assets/icons/rendericon.svg";
-import jwticon from "../../assets/icons/jwticon.svg";
-import wordpressicon from "../../assets/icons/wordpressicon.svg";
-import shopifyicon from "../../assets/icons/shopifyicon.svg";
-import webflowicon from "../../assets/icons/webflowicon.svg";
-import tastyMockup from "../../assets/img/tasty_mockup.webp";
-import instorMockup from "../../assets/img/instor_mockup.webp";
-import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
+import cicon from "../../assets/icons/c-1.svg";
+import cppicon from "../../assets/icons/c++.svg";
+import pythonicon from "../../assets/icons/python-5.svg";
+import djangoicon from "../../assets/icons/django.svg";
+import giticon from "../../assets/icons/git-bash.svg";
+import sqlicon from "../../assets/icons/sqlite.svg";
+//import nextjsicon from "../../assets/icons/nextjsicon.svg";
+//import nodejsicon from "../../assets/icons/nodejsicon.svg";
+//import tailwindcssicon from "../../assets/icons/tailwindicon.svg";
+//import mongodbicon from "../../assets/icons/mongoicon.svg";
+//import vuejsicon from "../../assets/icons/vueicon.svg";
+//import expressicon from "../../assets/icons/expressicon.svg";
+//import sassscssicon from "../../assets/icons/sassicon.svg";
+//import trelloicon from "../../assets/icons/trelloicon.svg";
+//import apiicon from "../../assets/icons/apiicon.svg";
+//import axiosicon from "../../assets/icons/axiosicon.svg";
+//import spotifyicon from "../../assets/icons/spotifyicon.svg";
+//import netlifyicon from "../../assets/icons/netlifyicon.svg";
+//import rendericon from "../../assets/icons/rendericon.svg";
+//import jwticon from "../../assets/icons/jwticon.svg";
+//import wordpressicon from "../../assets/icons/wordpressicon.svg";
+//import shopifyicon from "../../assets/icons/shopifyicon.svg";
+//import webflowicon from "../../assets/icons/webflowicon.svg";
+//import tastyMockupp from "../../assets/img/tasty_mockup.webp";
+import pr from "../../assets/img/3.png";
+//import instorMockup from "../../assets/img/instor_mockup.webp";
+//import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
 import profilepicture from "../img/me2.webp";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
-import nextjsiconwhite from "../../assets/icons/nextjsiconwhite.svg";
-import expressiconwhite from "../../assets/icons/expressiconwhite.svg";
+//import nextjsiconwhite from "../../assets/icons/nextjsiconwhite.svg";
+//import expressiconwhite from "../../assets/icons/expressiconwhite.svg";
 import { GoHome, GoPerson, GoMail, GoStack, GoProject } from "react-icons/go";
 import { FiGithub, FiLink, FiLinkedin, FiMail } from "react-icons/fi";
-import Imprint from "../../components/Imprint";
-import Privacy from "../../components/Privacy";
+//import Imprint from "../../components/Imprint";
+//import Privacy from "../../components/Privacy";
 
 export const headerIntroData = {
   title: {
-    de: "Hi, ich bin Alpay",
-    en: "Hi, I'm Alpay",
+    tr: "Merhaba, ben Melike",
+    en: "Hi, I'm Melike",
   },
-  subtitle: "Fullstack Developer ",
+  subtitle: {
+    tr: "Yazılım Mühendisi",
+    en: "Software Engineering",
+  },
   description: {
-    de: "Ich bin Alpay, ein Fullstack-Entwickler mit dem Ziel, meine Karriere voranzutreiben und an inspirierenden Projekten teilzunehmen. Hier präsentiere ich meine Arbeiten und meine Leidenschaft für die Webentwicklung. Lassen Sie uns gemeinsam digitale Lösungen gestalten und die Zukunft formen!",
-    en: "I'm Alpay, a fullstack developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
+    tr: "Merhaba Melike! Hasan Kalyoncu Üniversitesi Yazılım Mühendisliği 3. sınıf öğrencisiyim. Üniversite eğitimim boyunca yazılım geliştirme, veri analizi ve problem çözme becerilerimi geliştirmeye yönelik çeşitli proje ve kurslarda çalıştım. Staj deneyimlerim ve projelerim sayesinde gerçek dünyadaki problemleri çözme fırsatı buldum. Teknofest Robotaxi gibi projelerde yer almak hem ekip çalışması becerilerimi geliştirdi hem de bana pratik bilgiler kazandırdı. Amacım yazılım dünyasında kendimi sürekli geliştirerek yaratıcı ve etkili çözümler üretmemi sağlamaktır.",
+    en: "Hello Melike! I'm a 3rd-year Software Engineering student at Hasan Kalyoncu University. Throughout my university education, I have worked on various projects and courses to enhance my skills in software development, data analysis, and problem-solving. With internship experiences and projects, I've had the opportunity to solve real-world problems. Participating in projects like Teknofest Robotaxi has not only improved my teamwork skills but also provided me with practical knowledge. My goal is to continually enhance myself in the software world, enabling me to generate creative and effective solutions.",
   },
   buttons: [
     {
       name: "Contact",
       label: {
-        de: "Kontaktiere mich",
+        tr: "Bana ulasın",
         en: "Contact me",
       },
       icon: FiMail,
@@ -60,7 +70,7 @@ export const headerIntroData = {
     {
       name: "Projects",
       label: {
-        de: "Meine Projekte",
+        tr: "Projelerim",
         en: "My Projects",
       },
       icon: FiGithub,
@@ -72,23 +82,23 @@ export const headerIntroData = {
 
 export const projectsData = [
   {
-    title: "Tasty App",
+    title: "2022 Teknofest",
     description:
-      "Eine Rezepte App, die wir als Team mit React und der MealDB API gebaut haben. Ich war der Front-End Entwickler und habe Features wie Voice Search oder Print to PDF programmiert. Das Design wurde mit Figma erstellt. Die Website ist responsive und mobile-optimiert.",
+      "Robotaksi-Binek Otonom Araç Yarşması.",
     description_EN:
-      "A recipe app that we built as a team with React and the MealDB API. I was the front-end developer and programmed features like voice search or print to PDF. The design was created with Figma. The website is responsive and mobile-optimized.",
-    technologies: [
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
-      { name: "JavaScript", icon: javascripticon },
-      { name: "REST Api", icon: apiicon },
-      { name: "React", icon: reacticon },
-      { name: "Figma", icon: figmaicon },
-      { name: "Canva", icon: canvaicon },
-      { name: "Netlify", icon: netlifyicon },
-      { name: "Trello", icon: trelloicon },
-    ],
-    image: tastyMockup,
+      "Robotaxi-Passenger Autonomous Vehicle",
+    // technologies: [
+    //   { name: "Html", icon: htmlicon },
+    //   { name: "CSS", icon: cssicon },
+    //   { name: "JavaScript", icon: javascripticon },
+    //   { name: "REST Api", icon: apiicon },
+    //   { name: "React", icon: reacticon },
+    //   { name: "Figma", icon: figmaicon },
+    //   { name: "Canva", icon: canvaicon },
+    //   { name: "Netlify", icon: netlifyicon },
+    //   { name: "Trello", icon: trelloicon },
+    // ],
+    image: pr,
     deploymenturl: "https://delightful-cheesecake-9b19f0.netlify.app/",
     githuburl: "https://github.com/AlpayC/Frontend_Abschlussprojekt_Tasty",
     githubicon: FiGithub,
@@ -100,83 +110,83 @@ export const projectsData = [
       projectcolor: "#70B9BE",
     },
   },
-  {
-    title: "Silentmoon",
-    description:
-      "Eine Yoga und Meditations App, die wir als Team mit React, MongoDB, Express und Node.js gebaut haben. Meine Aufgabe als Gitmaster und Backend Entwickler bestand darin, das Backend mit Anbindung anhand einer Restful API zu programmieren und die Datenbank in MongoDB zu modellieren.",
-    description_EN:
-      "A yoga and meditation app that we built as a team with React, MongoDB, Express and Node.js. My task as a gitmaster and backend developer was to program the backend with connection using a restful API and to model the database in MongoDB.",
-    technologies: [
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
-      { name: "JavaScript", icon: javascripticon },
-      { name: "Spotify Api", icon: spotifyicon },
-      { name: "React", icon: reacticon },
-      { name: "JWT & Bcrypt", icon: jwticon },
-      { name: "Axios", icon: axiosicon },
-      { name: "MongoDB", icon: mongodbicon },
-      { name: "Express", icon: expressiconwhite },
-      { name: "Node.js", icon: nodejsicon },
-      { name: "Figma", icon: figmaicon },
-      { name: "Render", icon: rendericon },
-    ],
-    image: silentmoonMockup,
-    deploymenturl: "https://silentmoon-grpw.onrender.com/",
-    githuburl:
-      "https://github.com/AlpayC/Fullstack_Abschlussprojekt_SilentMoon",
-    githubicon: FiGithub,
-    deploymenticon: FiLink,
-    colors: {
-      main: "main-btn",
-      second: "secondary-btn",
-      icon: "white",
-      projectcolor: "#FFD5BD",
-    },
-  },
-  {
-    title: "Furniture Organizer",
-    description:
-      "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
-    description_EN:
-      "A furniture organizer app that we programmed as a duo team with React, MongoDB, Express and Node.js. As a gitmaster, I took over the connection of the frontend to the backend and the database modeling. The app is responsive and mobile-optimized.",
-    technologies: [
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
-      { name: "JavaScript", icon: javascripticon },
-      { name: "React", icon: reacticon },
-      { name: "JWT & Bcrypt", icon: jwticon },
-      { name: "Axios", icon: axiosicon },
-      { name: "MongoDB", icon: mongodbicon },
-      { name: "Express", icon: expressiconwhite },
-      { name: "Node.js", icon: nodejsicon },
-      { name: "Figma", icon: figmaicon },
-      { name: "Render", icon: rendericon },
-      { name: "Trello", icon: trelloicon },
-    ],
-    image: instorMockup,
-    deploymenturl: "https://mern-haushaltsbuch.onrender.com/",
-    githuburl: "https://github.com/AlpayC/Furniture_MERN",
-    githubicon: FiGithub,
-    deploymenticon: FiLink,
-    colors: {
-      main: "main-btn",
-      second: "secondary-btn",
-      icon: "white",
-      projectcolor: "#E3964A",
-    },
-  },
+  // {
+  //   title: "Silentmoon",
+  //   description:
+  //     "Eine Yoga und Meditations App, die wir als Team mit React, MongoDB, Express und Node.js gebaut haben. Meine Aufgabe als Gitmaster und Backend Entwickler bestand darin, das Backend mit Anbindung anhand einer Restful API zu programmieren und die Datenbank in MongoDB zu modellieren.",
+  //   description_EN:
+  //     "A yoga and meditation app that we built as a team with React, MongoDB, Express and Node.js. My task as a gitmaster and backend developer was to program the backend with connection using a restful API and to model the database in MongoDB.",
+  //   technologies: [
+  //     { name: "Html", icon: htmlicon },
+  //     { name: "CSS", icon: cssicon },
+  //     { name: "JavaScript", icon: javascripticon },
+  //     { name: "Spotify Api", icon: spotifyicon },
+  //     { name: "React", icon: reacticon },
+  //     { name: "JWT & Bcrypt", icon: jwticon },
+  //     { name: "Axios", icon: axiosicon },
+  //     { name: "MongoDB", icon: mongodbicon },
+  //     { name: "Express", icon: expressiconwhite },
+  //     { name: "Node.js", icon: nodejsicon },
+  //     { name: "Figma", icon: figmaicon },
+  //     { name: "Render", icon: rendericon },
+  //   ],
+  //   image: silentmoonMockup,
+  //   deploymenturl: "https://silentmoon-grpw.onrender.com/",
+  //   githuburl:
+  //     "https://github.com/AlpayC/Fullstack_Abschlussprojekt_SilentMoon",
+  //   githubicon: FiGithub,
+  //   deploymenticon: FiLink,
+  //   colors: {
+  //     main: "main-btn",
+  //     second: "secondary-btn",
+  //     icon: "white",
+  //     projectcolor: "#FFD5BD",
+  //   },
+  // },
+  // {
+  //   title: "Furniture Organizer",
+  //   description:
+  //     "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
+  //   description_EN:
+  //     "A furniture organizer app that we programmed as a duo team with React, MongoDB, Express and Node.js. As a gitmaster, I took over the connection of the frontend to the backend and the database modeling. The app is responsive and mobile-optimized.",
+  //   technologies: [
+  //     { name: "Html", icon: htmlicon },
+  //     { name: "CSS", icon: cssicon },
+  //     { name: "JavaScript", icon: javascripticon },
+  //     { name: "React", icon: reacticon },
+  //     { name: "JWT & Bcrypt", icon: jwticon },
+  //     { name: "Axios", icon: axiosicon },
+  //     { name: "MongoDB", icon: mongodbicon },
+  //     { name: "Express", icon: expressiconwhite },
+  //     { name: "Node.js", icon: nodejsicon },
+  //     { name: "Figma", icon: figmaicon },
+  //     { name: "Render", icon: rendericon },
+  //     { name: "Trello", icon: trelloicon },
+  //   ],
+  //   image: instorMockup,
+  //   deploymenturl: "https://mern-haushaltsbuch.onrender.com/",
+  //   githuburl: "https://github.com/AlpayC/Furniture_MERN",
+  //   githubicon: FiGithub,
+  //   deploymenticon: FiLink,
+  //   colors: {
+  //     main: "main-btn",
+  //     second: "secondary-btn",
+  //     icon: "white",
+  //     projectcolor: "#E3964A",
+  //   },
+  // },
 ] as const;
 
 export const liveTickerData = {
   content: {
-    de: "Weitere Projekte auf Github",
+    tr: "Github'da Daha Fazla Proje",
     en: "More Projects on Github",
   },
 } as const;
 
 export const skillsDataWeb = [
   {
-    skillsTitle: "WebDevelopment",
+    skillsTitle: "",
     skills: [
       {
         title: "HTML",
@@ -208,125 +218,90 @@ export const skillsDataWeb = [
         icon: reacticon,
         color: "#61DAFB",
       },
-      {
-        title: "Next.js",
-        hash: "#Next.js",
-        icon: [nextjsicon, nextjsiconwhite],
-        color: ["#000000", "#FFFFFF"],
-      },
-      {
-        title: "Node.js",
-        hash: "#Node.js",
-        icon: nodejsicon,
-        color: "#339933",
-      },
-      {
-        title: "Tailwind",
-        hash: "#Tailwind",
-        icon: tailwindcssicon,
-        color: "#38B2AC",
-      },
-      {
-        title: "MongoDB",
-        hash: "#MongoDB",
-        icon: mongodbicon,
-        color: "#449C45",
-      },
-      {
-        title: "Vue.js",
-        hash: "#Vue.js",
-        icon: vuejsicon,
-        color: "#4FC08D",
-      },
-      {
-        title: "Express",
-        hash: "#Express",
-        icon: [expressicon, expressiconwhite],
-        color: ["#000000", "#FFFFFF"],
-      },
-      {
-        title: "SASS/SCSS",
-        hash: "#SASS/SCSS",
-        icon: sassscssicon,
-        color: "#CC6699",
-      },
-    ],
-  },
-] as const;
-
-export const skillsDataDesign = [
-  {
-    skillsTitle: "Design",
-    skills: [
       { title: "Figma", hash: "#Figma", icon: figmaicon, color: "#F24E1E" },
-      {
-        title: "Adobe XD",
-        hash: "#Adobe XD",
-        icon: adobexdicon,
-        color: "#FF61F6",
-      },
-      { title: "Canva", hash: "#Canva", icon: canvaicon, color: "#00C4CC" },
+      { title: "C", hash: "#C", icon: cicon, color: "#004482" },
+      { title: "Python", hash: "#Python", icon: pythonicon, color: "#FFD141" },
+      { title: "Django", hash: "#Django", icon: djangoicon, color: "#2BA977" },
+      { title: "Git", hash: "#Git", icon: giticon, color: "#FF8080" },
+      { title: "SQLitet", hash: "#SQLitet", icon: sqlicon, color: "#82CBEF" },
+      { title: "C++", hash: "#C++", icon: cppicon, color: "#004482" },
     ],
   },
 ] as const;
 
-export const skillsDataCMS = [
-  {
-    skillsTitle: "CMS",
-    skills: [
-      {
-        title: "WordPress",
-        hash: "#WordPress",
-        icon: wordpressicon,
-        color: "#21759B",
-      },
-      {
-        title: "Shopify",
-        hash: "#Shopify",
-        icon: shopifyicon,
-        color: "#7AB55C",
-      },
-      {
-        title: "Webflow",
-        hash: "#Webflow",
-        icon: webflowicon,
-        color: "#4353FF",
-      },
-    ],
-  },
-] as const;
+// export const skillsDataDesign = [
+//   {
+//     skillsTitle: "Design",
+//     skills: [
+//       { title: "Figma", hash: "#Figma", icon: figmaicon, color: "#F24E1E" },
+//       {
+//         title: "Adobe XD",
+//         hash: "#Adobe XD",
+//         icon: adobexdicon,
+//         color: "#FF61F6",
+//       },
+//       { title: "Canva", hash: "#Canva", icon: canvaicon, color: "#00C4CC" },
+//     ],
+//   },
+// ] as const;
+
+// export const skillsDataCMS = [
+//   {
+//     skillsTitle: "CMS",
+//     skills: [
+//       {
+//         title: "WordPress",
+//         hash: "#WordPress",
+//         icon: wordpressicon,
+//         color: "#21759B",
+//       },
+//       {
+//         title: "Shopify",
+//         hash: "#Shopify",
+//         icon: shopifyicon,
+//         color: "#7AB55C",
+//       },
+//       {
+//         title: "Webflow",
+//         hash: "#Webflow",
+//         icon: webflowicon,
+//         color: "#4353FF",
+//       },
+//     ],
+//   },
+// ] as const;
 
 export const navLinks = [
-  { de: "Home", en: "Home", hash: "#home", icon: GoHome },
-  { de: "Skills", en: "Skills", hash: "#skills", icon: GoStack },
-  { de: "Projekte", en: "Projects", hash: "#projects", icon: GoProject },
-  { de: "Über mich", en: "About me", hash: "#about-me", icon: GoPerson },
-  { de: "Kontakt", en: "Contact", hash: "#contact", icon: GoMail },
+  { tr: "Anasayfa", en: "Home", hash: "#home", icon: GoHome },
+  { tr: "Yetenekler", en: "Skills", hash: "#skills", icon: GoStack },
+  { tr: "Projeler", en: "Projects", hash: "#projects", icon: GoProject },
+  { tr: "Hakkımda", en: "About me", hash: "#about-me", icon: GoPerson },
+  { tr: "Bana Ulaşın", en: "Contact", hash: "#contact", icon: GoMail },
 ] as const;
 
 export const FooterLinks = [
-  { de: "Impressum", en: "Imprint", hash: "#imprint", data: <Imprint /> },
-  { de: "Datenschutz", en: "Privacy", hash: "#privacy", data: <Privacy /> },
+  // { tr: "Impressum", en: "Imprint", hash: "#imprint", data: <Imprint /> },
+  // { tr: "Datenschutz", en: "Privacy", hash: "#privacy", data: <Privacy /> },
 ] as const;
 
 export const sideBarRightMail = {
-  link: "mailto:myemail@com",
-  text: "myemail@com",
+  link: "mailto:m.sultanbozoglan@gmail.com",
+  text: "m.sultanbozoglan@gmail.com",
 } as const;
 
 export const sideBarLeftSocials = [
   {
-    link: "https://www.linkedin.com/in/alpay/",
+    link: "https://www.linkedin.com/in/melikebozoglann/",
     icon: FiLinkedin,
     altimgname: "linkedin",
   },
   {
-    link: "https://github.com/AlpayC",
+    link: "https://github.com/melikeebozoglan",
     icon: FiGithub,
     altimgname: "github",
   },
   {
-    link: "mailto:myemail@com",
+    link: "mailto:m.sultanbozoglan@gmail.com",
     icon: FiMail,
     altimgname: "mail",
   },
@@ -334,58 +309,58 @@ export const sideBarLeftSocials = [
 
 export const quotesData = [
   {
-    de: '"Es ist überhaupt nicht wichtig, es beim ersten Mal richtig zu machen. Es ist entscheidend, es beim letzten Mal richtig zu machen."',
+    tr: '"Es ist überhaupt nicht wichtig, es beim ersten Mal richtig zu machen. Es ist entscheidend, es beim letzten Mal richtig zu machen."',
     en: `"It's not at all important to get it right the first time. It's vitally important to get it right the last time."`,
     author: "Andrew Hunt",
   },
   {
-    de: '"Das Web ist wie eine Leinwand und der Code ist die Farbe. Erschaffe dein Meisterwerk."',
-    en: `"The web is like a canvas, and code is the paint. Create your masterpiece."`,
+    tr: '"MELİKE SULTAN BOZOĞLAN"',
+    en: `"MELİKE SULTAN BOZOĞLAN"`,
   },
 ] as const;
 
 export const aboutMeData = {
-  title: "Über mich",
+  title: "Hakkımda",
   title_EN: "About me",
-  description: "Ein paar Codeschnippsel über mich",
+  description: "Hakkımda birkaç kod parçacığı",
   description_EN: "A few code snippets about me",
-  paragraphs_DE: [
+  paragraphs_TR: [
     {
-      title: "Die Schaltkreise meines Herzens",
+      title: "Eğitim",
       description:
-        "Wenn ich nicht in der digitalen Welt unterwegs bin, durchstreife ich die faszinierende Welt der Technik und Hardware. Schaltkreise und Lötstellen sind für mich wie Puzzleteile eines aufregenden Abenteuers.",
+        "Hasan Kalyoncu Üniversitesi \n Yazılım Mühendisliği \n 2020-2025",
       icon: hardwareicon,
     },
     {
-      title: "Auf der Überholspur des Lebens",
+      title: "Deneyimler",
       description:
-        "Neben dem Coden befinde ich mich gerne auf der Überholspur – im wahrsten Sinne des Wortes. Autos sind meine Leidenschaft, und ich genieße es, mit PS-starken Maschinen auf unbekannten Straßen unterwegs zu sein.",
+        "Apas Bilişim Mühendislik \n Stajyer \n 07.2023-01.2024",
       icon: caricon,
     },
     {
-      title: "Entdeckungsfreude als Lebensmotto",
+      title: "Gönüllü Çalışmalar",
       description:
-        "Meine Reise als Webentwickler ist nur ein Teil meines Lebenswegs. Ich lebe nach dem Motto, dass das Abenteuer erst beginnt, wenn man das Bekannte hinter sich lässt. Das Entdecken neuer Orte ist meine Form der kreativen Inspiration.",
+        "Hasan Kalyoncu Üniversitesi Google Developer Student Clubs 2023-2024 dönemi sosyal medya yöneticisi",
       icon: travelicon,
     },
   ],
   paragraphs_EN: [
     {
-      title: "The Circuits of My Heart",
+      title: "Education",
       description:
-        "When I'm not navigating the digital world, I explore the fascinating realm of technology and hardware. Circuits and solder joints are like puzzle pieces to me in an exciting adventure.",
+        "Hasan Kalyoncu University \n Software Engineering \n 2020-2025",
       icon: hardwareicon,
     },
     {
-      title: "On the Fast Lane of Life",
+      title: "jobs Experience",
       description:
-        "Besides coding, I like to be on the fast lane - in the truest sense of the word. Cars are my passion, and I enjoy being on unknown roads with powerful machines.",
+        "Apas Bilişim Mühendislik \n Intern \n 07.2023-01.2024",
       icon: caricon,
     },
     {
-      title: "The Joy of Discovery as a Life Motto",
+      title: "Volunteer Work",
       description:
-        "My journey as a web developer is only a part of my life path. I live by the motto that the adventure only begins when you leave the familiar behind. Discovering new places and cultures is my form of creative inspiration.",
+        "Hasan Kalyoncu Üniversity Google Developer Student Clubs 2023-2024 social media manager",
       icon: travelicon,
     },
   ],
@@ -393,23 +368,23 @@ export const aboutMeData = {
 
 export const contactData = {
   title: {
-    de: "Kontakt",
+    tr: "Bağlantı",
     en: "Contact",
   },
   description: {
-    de: "Schreib mir eine Nachricht und ich melde mich bei dir.",
+    tr: "Bana bir mesaj yaz, sana geri döneceğim.",
     en: "Write me a message and I will get back to you.",
   },
   inputfields: [
     {
       name: "name",
       placeholder: {
-        de: "Dein Name",
+        tr: "İsmizin",
         en: "Your Name",
       },
       type: "text",
       validation: {
-        de: "Bitte gebe deinen Namen ein",
+        tr: "Lütfen isminizi giriniz",
         en: "Please fill in your name",
       },
       pattern: "{2}",
@@ -417,12 +392,12 @@ export const contactData = {
     {
       name: "email",
       placeholder: {
-        de: "Deine E-Mail Adresse",
+        tr: "E-Mailiniz",
         en: "Your E-Mail",
       },
       type: "email",
       validation: {
-        de: "Bitte gebe deine Email ein",
+        tr: "Lütfen e-postanızı girin",
         en: "Please fill in your email",
       },
       pattern: "[@]{4}",
@@ -430,12 +405,12 @@ export const contactData = {
     {
       name: "subject",
       placeholder: {
-        de: "Deine Betreff",
+        tr: "Konu",
         en: "Your Subject",
       },
       type: "text",
       validation: {
-        de: "Bitte gebe einen Betreff ein",
+        tr: "Lütfen konunuzu giriniz",
         en: "Please fill in your subject",
       },
       pattern: "{10}",
@@ -443,20 +418,20 @@ export const contactData = {
   ],
   textarea: {
     placeholder: {
-      de: "Deine Nachricht",
+      tr: "Mesajın",
       en: "Your Message",
     },
     name: "message",
     rows: 10,
     validation: {
-      de: "Bitte gebe deine Nachricht ein",
+      tr: "Lütfen mesajınızı doldurun",
       en: "Please fill in your message",
     },
     pattern: "{10}",
   },
   button: {
     value: {
-      de: "Absenden",
+      tr: "Gönder",
       en: "Send",
     },
   },
@@ -469,38 +444,38 @@ export const contactData = {
   },
   privacyOptIn: {
     checkbox: {
-      de: "Ich stimme zu, dass Alpay meine personenbezogenen Daten (Name und E-Mail-Adresse) verwenden darf, um mit mir Kontakt aufzunehmen.",
-      en: "I agree that Alpay may use my personal data (name and e-mail address) to contact me.",
+      tr: "Melike'nin benimle iletişime geçmek için kişisel verilerimi (isim ve e-posta adresi) kullanabileceğini kabul ediyorum.",
+      en: "I agree that Melike may use my personal data (name and e-mail address) to contact me.",
     },
-    description: {
-      de: "Durch Übermittlung dieser Anfrage bestätigen Sie, dass Sie die Datenschutzerklärung gelesen haben",
-      en: "By submitting this request, you acknowledge that you have read the Private Policy",
-    },
+    // description: {
+    //   // tr: "Durch Übermittlung dieser Anfrage bestätigen Sie, dass Sie die Datenschutzerklärung gelesen haben",
+    //   // en: "By submitting this request, you acknowledge that you have read the Private Policy",
+    // },
   },
 } as const;
 
 export const toastMessages = {
   loadingProject: {
-    de: "🦄 Die Live Demo wird gleich geöffnet. Server werden gestartet...",
+    tr: "🦄 Canlı demo kısa süre içinde açılacak. Sunucular başlatılıyor...",
     en: "🦄 The live demo will open shortly. Starting servers...",
   },
   successEmailSent: {
-    de: "🦄 Vielen Dank für deine Email. Ich werde mich schnellstmöglich bei dir melden",
+    tr: "🦄 E-postan için teşekkürler. En kısa sürede size geri döneceğim",
     en: "🦄 Thank you for your email. I will get back to you as soon as possible",
   },
   failedEmailSent: {
-    de: "🦄 Leider hat der Versand deiner Email nicht geklappt. Bitte versuche es später noch einmal",
+    tr: "🦄 Maalesef e-postanızın gönderilmesi işe yaramadı. Lütfen daha sonra tekrar deneyiniz",
     en: "🦄 Unfortunately the sending of your email did not work. Please try again later",
   },
   failedValidationName: {
-    de: "Bitte gebe deinen Namen ein",
+    tr: "Lütfen isminizi giriniz",
     en: "Please fill in your name",
   },
 } as const;
 
 export const buttonLabels = {
   language: {
-    de: "DE",
+    tr: "TR",
     en: "EN",
   },
 } as const;

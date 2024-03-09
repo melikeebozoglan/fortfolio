@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
                 to="#"
                 className="text-white text-2xl font-bold hover:text-orange"
               >
-                {language === "DE" ? link.de : link.en}
+                {language === "TR" ? link.tr : link.en}
               </Link>
             }
             modal

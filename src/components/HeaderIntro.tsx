@@ -1,16 +1,16 @@
 import React from "react";
-import Button from "./Button";
+//import Button from "./Button";
 import RadialGradient from "./RadialGradient";
 import { headerIntroData } from "../assets/lib/data";
 import { useSectionInView } from "../assets/lib/hooks";
-import { useActiveSectionContext } from "../context/active-section-context";
+//import { useActiveSectionContext } from "../context/active-section-context";
 import { useLanguage } from "../context/language-context";
-import { BsMouse } from "react-icons/bs";
+//import { BsMouse } from "react-icons/bs";
 
 const HeaderIntro: React.FC = () => {
   const { language } = useLanguage();
   const { ref } = useSectionInView("Home", 0.5);
-  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+  // const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
     <section
@@ -23,26 +23,30 @@ const HeaderIntro: React.FC = () => {
       <img
         src={headerIntroData.profilepicture}
         alt={headerIntroData.profilepicture}
-        className="w-1/6 drop-shadow-2xl rounded-full shadow-2xl avatar-img max-lg:w-3/4"
+        className="w-1/6 drop-shadow-2xl rounded-full shadow-2xl avatar-img max-lg:w-1/4"
       />
       <h1>
-        {language === "DE"
-          ? headerIntroData.title.de
+        {language === "TR"
+          ? headerIntroData.title.tr
           : headerIntroData.title.en}
         <span className="wave text-7xl">&#128075;&#127997;</span>
       </h1>
-      <h2>{headerIntroData.subtitle}</h2>
+      <h2>
+        {language === "TR"
+        ? headerIntroData.subtitle.tr
+        : headerIntroData.subtitle.en}
+        </h2>
       <p className="w-1/2 text-center max-lg:hidden">
-        {language === "DE"
-          ? headerIntroData.description.de
+        {language === "TR"
+          ? headerIntroData.description.tr
           : headerIntroData.description.en}
       </p>
 
-      <div className="button-container flex items-center justify-center mr-8 gap-10 mb-12 max-lg:flex-col max-lg:items-center">
+      {/* <div className="button-container flex items-center justify-center mr-8 gap-10 mb-12 max-lg:flex-col max-lg:items-center">
         {headerIntroData.buttons.map((button, index) => (
           <Button
             key={index}
-            label={language === "DE" ? button.label.de : button.label.en}
+            label={language === "TR" ? button.label.tr : button.label.en}
             iconSVG={button.icon}
             link={`#${button.name.toLocaleLowerCase()}`}
             buttoncolor={button.color}
@@ -52,10 +56,10 @@ const HeaderIntro: React.FC = () => {
             }}
           />
         ))}
-      </div>
+      </div> 
       <div className="scroll-down-container animate-bounce flex gap-6">
         <BsMouse className="text-[2.6rem]" />
-      </div>
+      </div> */}
     </section>
   );
 };

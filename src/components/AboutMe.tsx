@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import me from "../assets/img/me.webp";
+import me from "../assets/img/1.png";
 import { aboutMeData } from "../assets/lib/data";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -32,7 +32,7 @@ const AboutMe: React.FC = () => {
     }
   };
   const paragraphs =
-    language === "DE" ? aboutMeData.paragraphs_DE : aboutMeData.paragraphs_EN;
+    language === "TR" ? aboutMeData.paragraphs_TR : aboutMeData.paragraphs_EN;
 
   return (
     <React.Fragment>
@@ -48,12 +48,12 @@ const AboutMe: React.FC = () => {
           >
             <p className="text-[--black] mb-6">
               <span className="text-orange">&lt;</span>
-              {language === "DE" ? aboutMeData.title : aboutMeData.title_EN}
+              {language === "TR" ? aboutMeData.title : aboutMeData.title_EN}
               <span className="text-orange">/&gt;</span>
             </p>
 
             <h2 className="text-[--black] text-center max-lg:text-left break-words">
-              {language === "DE"
+              {language === "TR"
                 ? aboutMeData.description
                 : aboutMeData.description_EN}
             </h2>
