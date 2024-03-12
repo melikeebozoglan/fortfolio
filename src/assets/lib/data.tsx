@@ -1,5 +1,5 @@
 //import adobexdicon from "../../assets/icons/adobexdicon.svg";
-import canvaicon from "../../assets/icons/canvaicon.svg";
+//import canvaicon from "../../assets/icons/canvaicon.svg";
 import figmaicon from "../../assets/icons/figmaicon.svg";
 import htmlicon from "../../assets/icons/htmlicon.svg";
 import cssicon from "../../assets/icons/cssicon.svg";
@@ -51,7 +51,7 @@ export const headerIntroData = {
   },
   subtitle: {
     tr: "Yazılım Mühendisi",
-    en: "Software Engineering",
+    en: "Software Engineer",
   },
   description: {
     tr: "Merhaba Melike! Hasan Kalyoncu Üniversitesi Yazılım Mühendisliği 3. sınıf öğrencisiyim. Üniversite eğitimim boyunca yazılım geliştirme, veri analizi ve problem çözme becerilerimi geliştirmeye yönelik çeşitli proje ve kurslarda çalıştım. Staj deneyimlerim ve projelerim sayesinde gerçek dünyadaki problemleri çözme fırsatı buldum. Teknofest Robotaxi gibi projelerde yer almak hem ekip çalışması becerilerimi geliştirdi hem de bana pratik bilgiler kazandırdı. Amacım yazılım dünyasında kendimi sürekli geliştirerek yaratıcı ve etkili çözümler üretmemi sağlamaktır.",
