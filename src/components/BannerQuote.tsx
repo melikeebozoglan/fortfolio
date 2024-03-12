@@ -1,8 +1,8 @@
 import React from "react";
 
 import bannerBg from "../assets/img/bannerbg.webp";
-import { quotesData } from "../assets/lib/data";
-import { useLanguage } from "../context/language-context";
+//import { quotesData } from "../assets/lib/data";
+//import { useLanguage } from "../context/language-context";
 import { useQuoteAnimation } from "../hooks/useQuoteAnimation";
 
 interface BannerProps {
@@ -13,10 +13,10 @@ interface BannerProps {
 
 const BannerQuote: React.FC<BannerProps> = ({
   style,
-  quoteIndex,
+  //quoteIndex,
   containerType,
 }) => {
-  const { language } = useLanguage();
+  // const { language } = useLanguage();
 
   // const quoteTranslation =
   //   language === "TR" ? quotesData[quoteIndex].tr : quotesData[quoteIndex].en;
